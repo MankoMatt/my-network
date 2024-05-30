@@ -1,0 +1,30 @@
+.nav {
+  grid-area: n;
+  background: #fa949e;
+  border-radius: 5px;
+}
+
+.theme {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+
+.doj {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #cbab61;
+  width: 180px;
+  height: 50px;
+  background: #5f6168;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 10px 30px 30px 10px ;
+  border: 2px solid rgb(56, 56, 56);
+}
+
+a {
+  text-decoration: none;
+}
+

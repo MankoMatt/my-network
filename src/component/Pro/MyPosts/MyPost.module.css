@@ -1,0 +1,17 @@
+.liked {
+  margin-bottom: 30px;
+}
+
+.post {
+  margin-left: 30px;
+  margin-bottom: 8px;
+}
+
+.img {
+  border-radius: 100%;
+  width: 100px;
+}
+
+.grid img {
+  width: 50px;
+}

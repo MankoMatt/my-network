@@ -1,0 +1,41 @@
+.header {
+  grid-area: h;
+  background: #cf7a0a;
+
+  display: grid;
+  grid-template-areas: "img name log";
+
+  grid-template-columns: 33% 33% 33%;
+  border-radius: 0px 0px 15px 15px;
+
+  
+}
+
+.header img {
+  width: 60px;
+}
+
+.imgs {
+  border-radius: 100%;
+  margin-left: 10px;
+  grid-area: img;
+  
+}
+
+.namesite {
+  grid-area: name;
+  text-align: center;
+  margin-top: 15px;
+  color: black;
+}
+
+.log {
+
+  position: absolute;
+  margin-top: 17px;
+  right: 60px;
+}
+
+.rorka {
+  position: absolute;
+}

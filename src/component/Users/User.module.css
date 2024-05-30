@@ -1,0 +1,274 @@
+.tochka {
+    display: grid;
+
+    grid-template-areas: 
+    "pagge find nn"
+    "n userrr nn";
+
+    grid-template-columns: 2fr 4fr 2fr;
+    
+    
+}
+
+
+
+
+
+
+.users {
+    display: grid;
+    grid-area: userrr;
+
+    grid-template-areas: 
+    "n uyy nn";
+    grid-template-columns: 2fr 5fr 3fr;
+    
+}
+
+
+.not {
+    grid-area: n;
+}
+
+.nott {
+    grid-area: nn;
+}
+
+.uyy {
+    grid-area: uyy;
+    
+}
+
+
+
+
+.One {
+    
+    margin-bottom: 15px;
+    width: 600px;
+    height: 80px;
+    border-radius: 25px;
+    background: #cbab61;
+
+    display: grid;
+
+    grid-template-areas: 
+        "ava nik fol"
+        "ava bio fol";
+
+    grid-template-columns: 1fr 8fr 2fr;
+    grid-template-rows: 1fr 4fr;
+    
+}
+
+
+.One .ava {
+    width: 70px;
+    padding: 5px;
+}
+
+.One .nik {
+    padding: 10px;
+    
+}
+
+.One .bio {
+    margin-top: -45px;
+    margin-left: 20px;
+}
+
+.ava {
+    grid-area: ava;
+    border-radius: 100%;
+}
+
+.follow {
+    grid-area: fol;
+    appearance:none;
+  -webkit-appearance:none;
+  
+  height: 50px;
+  width: 80px;
+  border:none;
+  background-color:#fce376;
+  color:#000000;
+  font-weight:600;
+  border-radius: 15px;
+  margin-top: 15px;
+  margin-left: 10px;
+    
+}
+
+.nik {
+    grid-area: nik;
+    color: rgba(0, 0, 0, 0.699);
+    font-size: 20px;
+    
+}
+
+.bio {
+    grid-area: bio;
+    color: rgba(0, 0, 0, 0.699);
+    
+}
+
+
+
+
+
+
+
+.find {
+    grid-area: find;
+
+    box-sizing: border-box;
+    width: 550px;
+    border: solid #cbab61 2px;
+    border-radius: 25px;
+    padding: 4px;
+    background: #5f6168;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    
+    
+
+
+    display: grid;
+    grid-template-areas: 
+    "t b";
+    grid-template-columns: 8fr 2fr;
+
+}
+
+.text {
+    grid-area: t;
+
+    padding: 8px;
+    border-radius: 25px;
+    background: #5f6168;
+    border: none;
+    color: #cbab61;
+    
+}
+
+input:focus {
+    outline: none;
+    }
+
+.button {
+    grid-area: b;
+
+    appearance:none;
+  -webkit-appearance:none;
+  
+  margin-left: 15px;
+  padding:10px;
+  border:none;
+  background-color:#fce376;
+  color:#000000;
+  font-weight:600;
+  border-radius: 15px;
+}
+
+
+
+.buttons {
+    
+    grid-area: pagge;
+    display: grid;
+
+    grid-template-areas: 
+    "b i bt";
+
+    grid-template-columns: 40px 60px 40px;
+    
+    margin-left: 50px;
+    margin-top: 28px;
+}
+
+.buu {
+    grid-area: b;
+
+    appearance:none;
+    -webkit-appearance:none;
+    
+    
+    padding:10px;
+    border:none;
+    background-color:#fce376;
+    color:#000000;
+    font-weight:600;
+    border-radius: 15px;
+    height: 30px;
+    width: 50px;
+
+}
+
+
+
+.buut {
+    grid-area: bt;
+
+
+    appearance:none;
+    -webkit-appearance:none;
+    
+    margin-left: 10px;
+    padding:10px;
+    border:none;
+    background-color:#fce376;
+    color:#000000;
+    font-weight:600;
+    border-radius: 15px;
+    height: 30px;
+    width: 50px;
+}
+
+.inbu {
+    grid-area: i;
+
+    box-sizing: border-box;
+    border: solid #cbab61 2px;
+    color: #cbab61;
+    border-radius: 25px;
+    padding: 4px;
+    background: #5f6168;
+    /* margin-top: 20px; */
+    margin-bottom: 80px;
+    margin-left: 20px;
+    
+}
+
+
+
+.tutu {
+    margin-left: 27%;
+}
+
+
+.uioo {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
